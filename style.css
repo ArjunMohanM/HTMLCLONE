@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+.logo {
+  height: 33px;
+  width: 66px;
+}
+.nav-txt {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 500;
+}
+.act-txt {
+  color: #c9382e;
+}
+.login-btn {
+  background-color: #e74747;
+}
+.login-btn:hover {
+  background-color: #e74747;
+  color: white;
+}
+.card-st {
+  background-color: #e74747;
+}
+.card-txt {
+  color: #e84747;
+  font-family: "Average Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-txt-2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+.card-txt-3 {
+  color: #3d3d3d;
+  font-size: 14px;
+  opacity: 0.75;
+  letter-spacing: 2px;
+}
+.card-txt-4 {
+  font-weight: 400;
+  font-size: 27px;
+  color: #3d3d3d;
+}
+.card-txt-5 {
+  opacity: 0.75;
+  line-height: 1rem;
+  font-size: 14px;
+  color: #3d3d3d;
+}
+.wrkt-btn {
+  font-size: 16px;
+  background-color: #e74747;
+  color: white;
+}
+.wrkt-btn:hover {
+  background-color: #e74747;
+  color: white;
+}
+.partner-logo-dimen {
+  width: 324px;
+  height: 100px;
+}
+.brand-header {
+  color: red;
+  font-family: 500;
+  font-size: 16px;
+}
+.brand-header2 {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.footer-logo-dimen {
+  width: 336px;
+  height: 159px;
+}
+.footer-topic {
+  font-family: 700;
+  font-size: 16px;
+  color: #e74747;
+  letter-spacing: 0.5px;
+}
+.footer-sub {
+  color: #adadad;
+  font-size: 14px;
+}
+.media-logo {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .card-txt {
+    font-size: 10px;
+  }
+  .card-txt-2 {
+    font-size: 18px;
+  }
+  .card-txt-3 {
+    font-size: 12px;
+  }
+  .card-txt-4 {
+    font-size: 16px;
+  }
+  .card-txt-5 {
+    font-size: 12px;
+  }
+  .partner-logo-dimen {
+    width: 150px;
+    height: 75px;
+  }
+  .footer-logo-dimen {
+    width: 194px;
+    height: 92px;
+  }
+  .footer-sub {
+    color: #adadad;
+    font-size: 8px;
+  }
+  .media-logo {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1700px) {
+  .media-logo {
+    font-size: 15px;
+  }
+}
