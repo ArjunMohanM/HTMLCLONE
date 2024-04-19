@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+body{
+  overflow-x: hidden;
+}
 .logo {
   height: 33px;
   width: 66px;
@@ -88,7 +91,7 @@
   font-size: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 785px) {
   .card-txt {
     font-size: 10px;
   }
@@ -123,5 +126,20 @@
 @media (max-width: 1700px) {
   .media-logo {
     font-size: 15px;
+  }
+  .card-txt {
+    font-size: 10px;
+  }
+  .card-txt-2 {
+    font-size: 18px;
+  }
+  .card-txt-3 {
+    font-size: 12px;
+  }
+  .card-txt-4 {
+    font-size: 16px;
+  }
+  .card-txt-5 {
+    font-size: 12px;
   }
 }
