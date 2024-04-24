@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
-body{
+body {
   overflow-x: hidden;
   margin: 0%;
   padding: 0%;
@@ -92,7 +92,29 @@ body{
 .media-logo {
   font-size: 40px;
 }
-
+.comm-bg {
+  background-image: url("https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/banner-new.png");
+  height: 543px;
+}
+.comm-txt {
+  color: #c9382e;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-family: "Average Sans", sans-serif;
+}
+.comm-txt2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-family: "Average Sans", sans-serif;
+}
+.comm-txt3{
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
 @media (max-width: 785px) {
   .card-txt {
     font-size: 10px;
