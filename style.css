@@ -94,7 +94,7 @@ body {
 }
 .comm-bg {
   background-image: url("https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/banner-new.png");
-  height: 543px;
+  height: 547px;
 }
 .comm-txt {
   color: #c9382e;
@@ -110,7 +110,7 @@ body {
   font-size: 30px;
   font-family: "Average Sans", sans-serif;
 }
-.comm-txt3{
+.comm-txt3 {
   font-weight: 400;
   font-size: 14px;
   color: #fff;
@@ -164,6 +164,19 @@ body {
     font-size: 16px;
   }
   .card-txt-5 {
+    font-size: 12px;
+  }
+  .comm-bg{
+    height: 260px;
+  }
+  .comm-txt {
+    letter-spacing: 0.3px;
+    font-size: 10px;
+  }
+  .comm-txt2{
+    font-size: 18px;
+  }
+  .card-txt-3{
     font-size: 12px;
   }
 }
